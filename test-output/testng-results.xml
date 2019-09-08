@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="52527" started-at="2019-08-07T17:53:57Z" finished-at="2019-08-07T17:54:49Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="52527" started-at="2019-08-07T17:53:57Z" finished-at="2019-08-07T17:54:49Z">
+      <class name="com.qa.cbol.tests.Test002">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.cbol.tests.Test002@3701eaf6]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2019-08-07T23:24:29Z" finished-at="2019-08-07T23:24:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.cbol.tests.Test002.TestCase002(java.util.Hashtable) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="TestCase002(java.util.Hashtable)[pri:0, instance:com.qa.cbol.tests.Test002@3701eaf6]" name="TestCase002" duration-ms="20481" started-at="2019-08-07T23:24:29Z" data-provider="testData" finished-at="2019-08-07T23:24:49Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unable to perform  click operation]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unable to perform  click operationat org.testng.Assert.fail(Assert.java:96)at com.qa.cbol.utils.Reporters.logMessage(Reporters.java:109)at com.qa.cbol.act.ElementKeywords.setValueToXpathAndClick(ElementKeywords.java:22)at com.qa.cbol.pages.HomePage.selectMenu(HomePage.java:16)at com.qa.cbol.tests.Test002.TestCase002(Test002.java:32)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase002 -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.cbol.tests.Test002@3701eaf6]" name="AfterMethod" is-config="true" duration-ms="2" started-at="2019-08-07T23:24:49Z" finished-at="2019-08-07T23:24:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase002 status=FAILURE method=Test002.TestCase002(java.util.Hashtable)[pri:0, instance:com.qa.cbol.tests.Test002@3701eaf6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.qa.cbol.tests.Test002@3701eaf6]" name="endTest" is-config="true" duration-ms="168" started-at="2019-08-07T23:24:49Z" finished-at="2019-08-07T23:24:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.qa.cbol.tests.Test002 -->
+      <class name="com.qa.cbol.tests.Test001">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.cbol.tests.Test001@5c5a1b69]" name="beforeMethod" is-config="true" duration-ms="132" started-at="2019-08-07T23:23:58Z" finished-at="2019-08-07T23:23:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.cbol.tests.Test001.TestCase001(java.util.Hashtable) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TestCase001(java.util.Hashtable)[pri:0, instance:com.qa.cbol.tests.Test001@5c5a1b69]" name="TestCase001" duration-ms="29377" started-at="2019-08-07T23:23:59Z" data-provider="testData" finished-at="2019-08-07T23:24:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Name=Abhishek, Execute=Y, DOB=6-June, TestCaseName=Test001}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase001 -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.cbol.tests.Test001@5c5a1b69]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2019-08-07T23:24:28Z" finished-at="2019-08-07T23:24:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCase001 status=SUCCESS method=Test001.TestCase001(java.util.Hashtable)[pri:0, instance:com.qa.cbol.tests.Test001@5c5a1b69] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.qa.cbol.tests.Test001@5c5a1b69]" name="endTest" is-config="true" duration-ms="623" started-at="2019-08-07T23:24:28Z" finished-at="2019-08-07T23:24:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.qa.cbol.tests.Test001 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
